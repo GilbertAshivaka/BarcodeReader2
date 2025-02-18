@@ -4,8 +4,11 @@
 #include <QObject>
 #include <QVideoFrame>
 #include <QVideoSink>
-#include "include/DynamsoftCaptureVisionRouter.h"
+#include "include/DynamsoftCore.h"
+#include "include/DynamsoftLicense.h"
 #include "include/DynamsoftUtility.h"
+#include "include/DynamsoftBarcodeReader.h"
+#include "include/DynamsoftCaptureVisionRouter.h"
 
 // Forward declarations from the SDK
 using namespace dynamsoft::cvr;

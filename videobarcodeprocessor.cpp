@@ -38,7 +38,7 @@ VideoBarcodeProcessor::VideoBarcodeProcessor(QObject *parent)
 {
     // Initialize license (adjust your license string as needed)
     char errorMsg[256];
-    int ret = CLicenseManager::InitLicense("YourLicenseStringHere", errorMsg, 256);
+    int ret = CLicenseManager::InitLicense("t0068lQAAABa8p7d6vIsLzXULX4XjMq689SBDTTjrc+ysij5GMVzyfNu0DF7yMUPWY+FmrDMolnhZSBqdHn9nzwVElDQ/8aY=;t0068lQAAAGXVdR0NdbdrG3GmOSmy5GOkKEP4v8XG+qCXVenT2I9CHYIDns4ZHJc0FE+BxPXzC1tbsOMkKlWxRCbz3F7dCqE=", errorMsg, 256);
     qDebug() << "License init:" << errorMsg;
 
     // Create the Capture Vision Router
