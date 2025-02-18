@@ -1,7 +1,7 @@
-import QtQuick 2.15
-import QtQuick.Window 2.15
-import QtMultimedia 5.15
-import com.mycompany.videobarcode 1.0
+import QtQuick
+import QtQuick.Window
+import QtMultimedia
+import com.videobarcode 1.0
 
 Window {
     width: 640

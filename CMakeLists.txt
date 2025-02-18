@@ -27,6 +27,7 @@ qt_add_qml_module(${TARGET_NAME}
         include/DynamsoftLabelRecognizer.h
         include/DynamsoftLicense.h
         include/DynamsoftUtility.h
+        SOURCES videobarcodeprocessor.h videobarcodeprocessor.cpp
 )
 
 set_target_properties(${TARGET_NAME} PROPERTIES
